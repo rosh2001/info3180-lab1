@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"<p>My home page </p> <a href='{url_for('about')}'> About </a>"
+    return f"<p>My Home page </p> <a href='{url_for('about')}'> About </a>"
 
 
 @app.route('/about')
