@@ -14,3 +14,4 @@ def home():
 
 
 @app.route('/about')
+    return render_template('about.html')
